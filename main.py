@@ -1,6 +1,7 @@
 liste = {
-    "animali": ["cane", "gatto", "elefante", "leone", "tigre", "orso"],
-    "persone": ["giacomo", "mario", "luigi", "anna", "maria", "francesca", "giorgio"]
+    "animali": ["cane", "gatto", "elefante", "leone", "tigre", "orso", "lupo", "pesce"],
+    "persone": ["giacomo", "mario", "luigi", "anna", "maria", "francesca", "giorgio", "marco"],
+    "citta": ["roma", "milano", "napoli", "torino", "palermo", "genova", "bologna", "firenze"]
 }
 
 print("Welcome to List Manager!")
