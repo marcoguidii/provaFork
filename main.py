@@ -54,6 +54,7 @@ while choice != "q":
         while list_choice not in avaiable_options:
             list_choice = input(f"Da quale lista vuoi rimuovere un elemento? ({', '.join(avaiable_options)} - Indietro): ").strip().lower()
         if list_choice != "e":
+            print(f"Elementi nella lista {list_choice}: {', '.join(liste[list_choice])}")
             rem_element = input("Inserisci l'elemento da rimuovere: ").strip().lower()
             if rem_element in liste[list_choice]:
                 liste[list_choice].remove(rem_element)
